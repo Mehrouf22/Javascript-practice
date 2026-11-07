@@ -98,3 +98,33 @@
 // var b =console.log(`I bought ${qty} ${fruit}s`);   // line 1: just print the sentence
 // console.log(typeof b);                    // line 2: separate line for the type
 
+
+
+
+// ## Data Types
+
+// // 1. Create variables of type string, number, boolean, null, and undefined. 
+// let a="String";
+// let b=10; 
+// let c=true;
+// let d=null;
+// let e;
+// console.log(typeof a, typeof b, typeof c, typeof d, typeof e);
+// // 2. Check the type of different variables using `typeof`.
+// let f="String";
+// let g=10; 
+// let h=true;
+// let i=null;
+// let j;
+// console.log(typeof f, typeof g, typeof h, typeof i, typeof j);
+// // 3. Store your mobile number in a variable and check its type.
+// let MobileNumber=8859432931;
+// console.log(typeof MobileNumber);
+// // 4. Create a variable with value `null` and check its type.
+// let jja=null;
+// console.log(typeof jja);
+// // 5. Create a bigint number and print it.
+// let big=2345678987654567876567898767890987654567876545678765n;
+// console.log(big);
+
+// // ---
