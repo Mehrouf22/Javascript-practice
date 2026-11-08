@@ -220,38 +220,66 @@
 
 
 
-// ## Strings
+// // ## Strings
 
-// 1. Create a string and print its length.
-let a="Mehrouf"
-console.log(a.length);
-// 2. Convert a string into uppercase.
-let b="Mehrouf"
-console.log(b.toUpperCase());
-// 3. Convert a string into lowercase.
-let c="Mehrouf"
-console.log(c.toLowerCase());
-// 4. Check if a string includes the word `"JavaScript"`.
-let d="i have a love hate relationship with JavaScript";
-console.log(d.includes("JavaScript"))
-// 5. Extract the word `"World"` from `"Hello World"`.
-let e="Hello World";
-console.log(e.replace("World","js"))
-// 6. Replace `"apple"` with `"mango"` in a sentence.
-let hi="hello apple"
-console.log(hi.replace("apple","mango"))
-// 7. Split `"HTML,CSS,JS"` into an array.
-let p="HTML,CSS,JS"
-console.log(p.split(","))
-// 8. Remove extra spaces from a string.
-let r="  sdon  ";
-console.log(r.trim());
-// 9. Repeat the word `"Hi"` 5 times.
-let u="acv"
-console.log(u.repeat(10));
-// 10. Print the first character of a string.
-let k="sdgdsg"
-console.log(k.charAt())
-// 11. Use template literals to print:`"My name is Aman and I am 20 years old"`
+// // 1. Create a string and print its length.
+// let a="Mehrouf"
+// console.log(a.length);
+// // 2. Convert a string into uppercase.
+// let b="Mehrouf"
+// console.log(b.toUpperCase());
+// // 3. Convert a string into lowercase.
+// let c="Mehrouf"
+// console.log(c.toLowerCase());
+// // 4. Check if a string includes the word `"JavaScript"`.
+// let d="i have a love hate relationship with JavaScript";
+// console.log(d.includes("JavaScript"))
+// // 5. Extract the word `"World"` from `"Hello World"`.
+// let e="Hello World";
+// console.log(e.replace("World","js"))
+// // 6. Replace `"apple"` with `"mango"` in a sentence.
+// let hi="hello apple"
+// console.log(hi.replace("apple","mango"))
+// // 7. Split `"HTML,CSS,JS"` into an array.
+// let p="HTML,CSS,JS"
+// console.log(p.split(","))
+// // 8. Remove extra spaces from a string.
+// let r="  sdon  ";
+// console.log(r.trim());
+// // 9. Repeat the word `"Hi"` 5 times.
+// let u="acv"
+// console.log(u.repeat(10));
+// // 10. Print the first character of a string.
+// let k="sdgdsg"
+// console.log(k.charAt())
 
-let name=
+// // 11. Use template literals to print:`"My name is Aman and I am 20 years old"`
+// let name="Mehrouf"
+// let age=24;
+// console.log(`my name is ${name} and I am ${age} years old`);
+
+
+
+
+// // ## Numbers & Math
+
+// // 1. Round `4.7` using `Math.round()`.
+// let num=4.7;
+// console.log(Math.round(num))
+// // 2. Find the square root of 81.
+// console.log(Math.sqrt(num));
+// // 3. Find the maximum number from `10, 20, 5, 99`.
+
+// console.log(Math.max(10,20,5,99))
+// // 4. Generate a random number between 1 and 10.
+// console.log(Math.floor(Math.random(1,2,3,4,5,6,7,8,9,10)))
+
+// // 5. Convert `"99.99"` into an integer.
+// console.log(Number.isInteger(99.99))
+// // 6. Check whether `25` is an integer or not.
+// console.log(Number.isInteger(25))
+// // 7. Use `toFixed(2)` on `3.141592`.
+// const sup=3.141592;
+// console.log(sup.toFixed(2))
+
+// // ---
