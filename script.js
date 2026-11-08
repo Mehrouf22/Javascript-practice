@@ -163,3 +163,95 @@
 // console.log(i);
 
 // // ---
+
+// ## Operators
+
+// 1. Add two numbers and print the result.
+// let a = 10;
+// let b = 2;
+// console.log("a + b =", a + b);    // a + b = 12
+// 2. Find the remainder when 25 is divided by 4.
+// let a =25
+// let b=4
+// // console.log(a%b);
+
+// // // 3. Find the square of a number using exponent operator.
+// // // let a=2;
+// // // let b=4;
+// // // console.log(a**b);
+// // // 4. Increment a variable using `++`.
+// // // let a=100;
+// // // a++;
+// // // console.log(a);
+// // // 5. Decrement a variable using `-`.
+// // let b=10;
+// // b--;
+// // console.log(b);
+
+// // 6. Use `+=` operator to increase a variable by 20.
+// // let a=30
+// // console.log(a+=20);
+
+// // 7. Compare two numbers using `>`, `<`, `>=`, `<=`.
+
+// let a=10;
+// let b=20;
+// console.log(a>b)
+// console.log(a<b)
+// console.log(a>=b)
+// console.log(a<=b)
+// // 8. Check if two values are strictly equal using `===`.
+// let c="100";
+// let d=100;
+// console.log(c===d)
+// // 9. Compare `"10"` and `10` using both `==` and `===`.
+// let e="10"
+// let f=10;
+// console.log(e==f);
+// console.log(e===f);
+// // 10. Create two boolean variables and test `&&`, `||`, and `!`.
+// let jja=10;
+// let jjb=20;
+// console.log(a>b && b>a);
+// console.log(a>b || b>a); 
+// console.log(!jja);
+// // ---
+
+
+
+
+// ## Strings
+
+// 1. Create a string and print its length.
+let a="Mehrouf"
+console.log(a.length);
+// 2. Convert a string into uppercase.
+let b="Mehrouf"
+console.log(b.toUpperCase());
+// 3. Convert a string into lowercase.
+let c="Mehrouf"
+console.log(c.toLowerCase());
+// 4. Check if a string includes the word `"JavaScript"`.
+let d="i have a love hate relationship with JavaScript";
+console.log(d.includes("JavaScript"))
+// 5. Extract the word `"World"` from `"Hello World"`.
+let e="Hello World";
+console.log(e.replace("World","js"))
+// 6. Replace `"apple"` with `"mango"` in a sentence.
+let hi="hello apple"
+console.log(hi.replace("apple","mango"))
+// 7. Split `"HTML,CSS,JS"` into an array.
+let p="HTML,CSS,JS"
+console.log(p.split(","))
+// 8. Remove extra spaces from a string.
+let r="  sdon  ";
+console.log(r.trim());
+// 9. Repeat the word `"Hi"` 5 times.
+let u="acv"
+console.log(u.repeat(10));
+// 10. Print the first character of a string.
+let k="sdgdsg"
+console.log(k.charAt())
+// 11. Use template literals to print:`"My name is Aman and I am 20 years old"`
+
+let name=
