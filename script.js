@@ -128,3 +128,38 @@
 // console.log(big);
 
 // // ---
+
+
+
+// // ## Type Conversion & Coercion
+
+// // 1. Convert the string `"50"` into a number.
+// let a="50"
+// console.log(Number(a));
+// // 2. Convert the number `100` into a string.
+// let b=100;
+// console.log(String(b));
+// // 3. Convert `"true"` into a boolean.
+// let c="true";
+// console.log(typeof(Boolean(c)));
+// // 4. Check the output of:
+// // - `"5" + 2`
+// let jja="5"
+// let jjb=2;
+// console.log(jja+jjb);
+// // - `"5" - 2`
+// let jjc="5"
+// let jjd=2;
+// console.log(jjc-jjd);
+// // - `true + 1`
+// let jje=true
+// let jjf=1
+// console.log(jje+jjf);
+// // 1. Create a variable with value `"123abc"` and convert it into a number.
+// let Value="123abc";
+// console.log(Number(Value));
+// // 2. Use `parseInt()` on `"500px"`.
+// let i=parseInt("500px")
+// console.log(i);
+
+// // ---
