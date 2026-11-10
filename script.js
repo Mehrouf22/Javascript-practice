@@ -283,3 +283,132 @@
 // console.log(sup.toFixed(2))
 
 // // ---
+
+
+
+
+// // ## Conditionals
+
+// // 1. Check whether a number is positive or negative.
+// let TheNum=1;
+// if(TheNum>=0){
+//     console.log("The number is Positive");
+// }else{
+//     console.log("The number is negative");
+// }
+// // 2. Check whether a number is even or odd.
+// let a=22;
+// if(a%2===0){
+// console.log("the number is even")
+// }else{
+//     console.log("the number is odd")
+// }
+// // 3. Check whether a person is eligible to vote.
+// let Name="Manu"
+// let age=2;
+// if(age>=18){
+//     console.log("the person is eligible to vote")
+// }else{
+//     console.log("the person is not eligible to vote")
+// }
+// // 4. Find the largest among two numbers.
+// let num1=20
+// let num2=30
+// if(num1>num2){
+//     console.log("num1 is greater than num2")
+// }else if(num2>num1){
+//     console.log("num2 is greater than num1")
+// }else{
+//     console.log("both are equal")
+// }
+// // 5. Find the largest among three numbers.
+// const ki=20
+// const ko=25
+// const kl=30
+// if(ki>ko && ki>kl){
+//     console.log("k1 is the largest")
+// }else if(ko>ki && ko>kl){
+//     console.log("ko is the largest")
+// }else{
+//     console.log("kl is largest")
+// }
+// // 6. Check whether a year is a leap year.
+// let year=1020
+// if(year%4===0){
+//     console.log("this is a leap year")
+// }else {
+//     console.log("its not a leap year")
+// }
+// // 7. Check whether a number is divisible by both 3 and 5.
+// let bleh=15;
+// if(bleh%3===0 && bleh%5===0){
+//     console.log("the num is divisible by 3 and 5");
+// }else{
+//     console.log("Nope the number is not divisible by 3 and 5")
+// }
+// // 8. Create a simple grading system:
+// - 90+ → A
+// - 75+ → B
+// - 50+ → C
+// - below 50 → Fail
+
+// const score=Number(prompt("Enter the score"));
+// if(score>=90 && score<=100){
+//     console.log("its an A grade");
+// }else if(score>=75 && score<=89){
+//     console.log("its a B grade")
+// }else if(score>=50 && score<=74){
+//     console.log("its a C grade")
+// }else{
+//     console.log("fail")
+// }
+
+
+// 1. Check whether a character is a vowel or consonant.
+// let r=prompt("Enter a Charecter");
+// if(r==="a" || r==="e" || r==="i" ||r==="o" || r==="u"){
+//     console.log(`The Entered charecter is a vowel`);
+// }else{
+//     console.log("its a consonant")
+// }
+
+
+// 2. Create a calculator using `switch` statement.
+let num1=Number(prompt("Enter the number"));
+let Operant=prompt("enter the operator +,-,*,%,/")
+let num2=Number(prompt("Enter the number"))
+
+
+switch(Operant){
+    case "+":
+        console.log(num1 + num2);
+        break;
+    case "-":
+        console.log(num1-num2);
+        break;
+    case "*":
+        console.log(num1*num2);
+        break;
+    case "%":
+        if(num1%2===0){
+            console.log("its a even number")
+        }else{
+            console.log("its an odd number")
+        }
+        break;
+    case "/":
+        if(num1!==0){
+            console.log(num1/num2)
+        }else{
+            console.log("Error division by 0")
+        }
+        break;
+    default:
+        console.log("invalid input")
+}
+
+// 3. Print the day name based on a number (1–7).
+// 4. Check whether a username is `"admin"` and password is `"1234"`.
+
+// ---
+
