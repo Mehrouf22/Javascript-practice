@@ -373,42 +373,81 @@
 // }
 
 
-// 2. Create a calculator using `switch` statement.
-let num1=Number(prompt("Enter the number"));
-let Operant=prompt("enter the operator +,-,*,%,/")
-let num2=Number(prompt("Enter the number"))
+// // 2. Create a calculator using `switch` statement.
+// let num1=Number(prompt("Enter the number"));
+// let Operant=prompt("enter the operator +,-,*,%,/")
+// let num2=Number(prompt("Enter the number"))
 
 
-switch(Operant){
-    case "+":
-        console.log(num1 + num2);
-        break;
-    case "-":
-        console.log(num1-num2);
-        break;
-    case "*":
-        console.log(num1*num2);
-        break;
-    case "%":
-        if(num1%2===0){
-            console.log("its a even number")
-        }else{
-            console.log("its an odd number")
-        }
-        break;
-    case "/":
-        if(num1!==0){
-            console.log(num1/num2)
-        }else{
-            console.log("Error division by 0")
-        }
-        break;
-    default:
-        console.log("invalid input")
-}
+// switch(Operant){
+//     case "+":
+//         console.log(num1 + num2);
+//         break;
+//     case "-":
+//         console.log(num1-num2);
+//         break;
+//     case "*":
+//         console.log(num1*num2);
+//         break;
+//     case "%":
+//         if(num1%2===0){
+//             console.log("its a even number")
+//         }else{
+//             console.log("its an odd number")
+//         }
+//         break;
+//     case "/":
+//         if(num1!==0){
+//             console.log(num1/num2)
+//         }else{
+//             console.log("Error division by 0")
+//         }
+//         break;
+//     default:
+//         console.log("invalid input")
+// }
 
-// 3. Print the day name based on a number (1–7).
-// 4. Check whether a username is `"admin"` and password is `"1234"`.
+// // 3. Print the day name based on a number (1–7).
+// let day=prompt("Enter the number of the day in a week");
+// switch(day){
+//     case 1:
+//         console.log("Sunday");
+//         break;
+//      case 2:
+//         console.log("Monday");
+//         break;
+//      case 3:
+//         console.log("Tuesday");
+//         break;
+//      case 4:
+//         console.log("Wednesday");
+//         break;
+//      case 5:
+//         console.log("Thursday");
+//         break;
+//      case 6:
+//         console.log("Friday");
+//         break;
+//      case 7:
+//         console.log("Saturday");
+//         break;
+
+// }
+
+// // 4. Check whether a username is `"admin"` and password is `"1234"`.
+// let username=prompt("Enter the username");
+// let password=prompt("Enter the password");
+// if(username==="admin" && password==="1234"){
+//     console.log("Logged in")
+// }else{
+//     console.log("Invalid user id or password");
+// }
+// // ---
+
+// ## Ternary Operator
+
+// 1. Check whether a number is even or odd using ternary operator.
+// 2. Check whether age is above 18 using ternary operator.
+// 3. Find the greater number between two values using ternary operator.
 
 // ---
-
