@@ -444,10 +444,50 @@
 // }
 // // ---
 
-// ## Ternary Operator
+// // ## Ternary Operator
 
-// 1. Check whether a number is even or odd using ternary operator.
-// 2. Check whether age is above 18 using ternary operator.
-// 3. Find the greater number between two values using ternary operator.
+// // // 1. Check whether a number is even or odd using ternary operator.
+// // let value=Number(prompt("Enter the number"));
+// // console.log(value%2===0 ? "its an even numer":"its an odd number");
+
+// // // 2. Check whether age is above 18 using ternary operator.
+// // let age=Number(prompt("Enter the Age"));
+// // console.log(age>=18?"you are above 18":"you are not above 18");
+
+// // 3. Find the greater number between two values using ternary operator.
+// let val1=Number(prompt("Enter the 1st value"));
+// let val2=Number(prompt("Enter the 2nd value"));
+// console.log(val1>val2?"Value1 is greater than value 2":val1<val2?"Value2 is greater than value1":"both are equal"); 
+
+
+// ---
+
+// ## Mixed Practice Questions
+
+// 1. Create a mini biodata program using variables and template literals.
+    // let name=prompt("Enter your name");
+    // let age=Number(prompt("Enter your age"));
+    // let qualification=prompt("Enter your qualification");
+    // let loc=prompt("Enter your location");
+    // console.log(`Hello my name is ${name}, and i am ${age} years of age, and my qualificatios are im a ${qualification} graduate, and my location is ${loc}`);
+// 2. Calculate the area of a rectangle.
+// let length=Number(prompt("Enter the lenght of the rectangle"));
+// let width=Number(prompt("Enter the width of the rectangle"));
+// let area=console.log(`area of the rectangle is ${length*width} where lenght is ${length} and width is ${width}`);
+// 3. Calculate the simple interest.
+// let Amount=Number(prompt("Enter the Amount"));
+// let intrest=Number(prompt("Enter your intrest"));
+// let time=Number(prompt("Enter the time (in years)"));
+
+// let calc=(Amount*intrest*time)/100;
+// console.log(calc);
+// 4. Convert temperature from Celsius to Fahrenheit.
+
+// 5. Convert kilometers into meters.
+// 6. Calculate total marks and percentage of 5 subjects.
+// 7. Calculate electricity bill based on units consumed.
+// 8. Create a username generator using first name and birth year.
+// 9. Check whether a string starts with a specific letter.
+// 10. Count the total characters in a sentence excluding spaces.
 
 // ---
