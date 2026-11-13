@@ -481,13 +481,48 @@
 
 // let calc=(Amount*intrest*time)/100;
 // console.log(calc);
+
 // 4. Convert temperature from Celsius to Fahrenheit.
+// let c=Number(prompt("Enter the temp in Celsius"));
+// let f=(c*9/5)+32;
+// console.log(`the temp is ${f} Fahrenheit`);
 
 // 5. Convert kilometers into meters.
-// 6. Calculate total marks and percentage of 5 subjects.
-// 7. Calculate electricity bill based on units consumed.
+// let kilometers=Number(prompt("Enter the Kilometer"));
+// let meters=(kilometers*1000);
+// console.log(`${kilometers} km is ${meters} in meters`);
+
+
+// // 6. Calculate total marks and percentage of 5 subjects.
+// const OutOf=500;
+// let sub1=Number(prompt("Enter the marks of sub1"));
+// let sub2=Number(prompt("Enter the marks of sub2"));
+// let sub3=Number(prompt("Enter the marks of sub3"));
+// let sub4=Number(prompt("Enter the marks of sub4"));
+// let sub5=Number(prompt("Enter the marks of sub5"));
+// const Total=(sub1+sub2+sub3+sub4+sub5);
+// const percentage=(Total/OutOf)*100;
+// console.log(`The total of all subject you scored are ${Total} and the percentage you got is ${percentage}`);
+
+
+// // 7. Calculate electricity bill based on units consumed.
+// let units=Number(prompt("Enter the units used"));
+// const rate1=10;
+// const rate2=20;
+// const rate3=25;
+// let bill;
+// if(units<=100){
+//     bill=units*rate1;
+// }else if(units<=200){
+//     bill=100*rate1+(units-100)*rate2;
+// }else if(units>=200){
+//   bill=100*rate1+100*rate2+(units-200)*rate3;
+// }
+// console.log(`your bill will be ${bill}`)
 // 8. Create a username generator using first name and birth year.
 // 9. Check whether a string starts with a specific letter.
 // 10. Count the total characters in a sentence excluding spaces.
 
 // ---
+
+
