@@ -519,10 +519,37 @@
 //   bill=100*rate1+100*rate2+(units-200)*rate3;
 // }
 // console.log(`your bill will be ${bill}`)
+
 // 8. Create a username generator using first name and birth year.
+
 // 9. Check whether a string starts with a specific letter.
 // 10. Count the total characters in a sentence excluding spaces.
 
 // ---
 
 
+// let Distance=Number(prompt("Enter the mk travelled"));
+// const rate1=15
+// const rate2=12
+// const rate3=10
+// let bill;
+// if(Distance<=5){
+//     bill=Distance*rate1;
+// }else if(Distance<=15){
+//     bill=Distance*rate1+(Distance-5)*rate2;
+// }
+// console.log(`total bill is ${bill}`)
+
+// let Weight=Number(prompt("Enter the weight"));
+// const price1=40;
+// const price2=30;
+// const price3=20;
+// let bill;
+// if(Weight<=3){
+//     bill=Weight*price1;
+// }else if(Weight<=7){
+//     bill=Weight*price1+(Weight-3)*price2
+// }else{
+//     bill=
+// }
+// console.log(`the total amount is ${bill}`)
